@@ -8,14 +8,5 @@ fun main(){
     var g:Long=95024446
     var h:Short=2
     var i:Byte=110
-    println("$a is an integer")
-    println("$b is a float")
-    println("$c is a string")
-    println("$d is a character")
-    println("$e is a boolean")
-    println("$f is a double value")
-    println("$g is a long value")
-    println("$h is a short value")
-    println("$i is a byte value")
-
+    println("Integer value:$a, Float value:$b, String:$c, character:$d, Boolean value:$e, Double value:$f, Long value :$g, Short value:$h, Byte value:$i")
 }
