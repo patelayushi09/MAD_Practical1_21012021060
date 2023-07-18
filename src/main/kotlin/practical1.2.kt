@@ -5,10 +5,10 @@ fun main(){
     var e=c.toInt()
     var f=c.toDouble()
 
-    println("Integer Value:$a,String Value:$c")
-    println("Double value (from integer):$d")
-    println("Integer Value (from string):$e")
-    println("Double Value (from string):$f")
+    println("Integer Value:$a,String Value: $c")
+    println("Double value (from integer): $d")
+    println("Integer Value (from string): $e")
+    println("Double Value (from string): $f")
 
     var m="Hello"
    try{
