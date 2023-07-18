@@ -19,6 +19,6 @@ fun month(obj:Any):String=
             10->"October"
             11->"November"
             12->"December"
-            else->"Plz! Enter proper number"
+            else->"Plz, Enter proper number!!"
         }
 
