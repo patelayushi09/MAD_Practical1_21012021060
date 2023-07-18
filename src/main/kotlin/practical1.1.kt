@@ -8,5 +8,5 @@ fun main(){
     var g:Long=95024446
     var h:Short=2
     var i:Byte=110
-    print("Integer value:$a, \nFloat value:$b, \nString value:$c, \ncharacter value:$d, \nBoolean value:$e, \nDouble value:$f, \nLong value :$g, \nShort value:$h, \nByte value:$i")
+    print("Integer value: $a \nFloat value: $b \nString value: $c \ncharacter value: $d \nBoolean value: $e \nDouble value: $f \nLong value : $g \nShort value: $h \nByte value: $i")
 }
