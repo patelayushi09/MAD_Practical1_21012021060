@@ -1,4 +1,11 @@
-fun main(obj:Any):String=
+fun main()
+{
+    print("Enter number: ")
+    var mon: Int = readLine()!!.toInt()
+    var result = month(mon)
+    println(result)
+}
+fun month(obj:Any):String=
         when (obj){
             1-> "January"
             2->"February"

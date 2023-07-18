@@ -2,7 +2,7 @@ fun main(){
    println("Enter student Enrollment no.:");
     var a= readLine()
     println("Enter student Name:");
-    var b= readLine()
+    var b:String?= readLine()
     println("Enter student Branch:");
     var c= readLine()
     println("Enter student Class:");
