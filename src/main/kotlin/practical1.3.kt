@@ -17,5 +17,5 @@ fun main(){
     var h:String?= readLine()
 
     println("STUDENT`S INFORMATION")
-    println("Enrollment no:$a, \nName:$b, \nBranch:$c, \nClass:$d, \nBatch:$g, \nAge:$e, \nCollege Name:$f, \nUniversity Name:$h")
+    println("Enrollment no:$a \nName:$b \nBranch:$c \nClass:$d \nBatch:$g \nAge:$e \nCollege Name:$f \nUniversity Name:$h")
 }
