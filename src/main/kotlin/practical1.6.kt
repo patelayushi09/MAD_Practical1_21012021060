@@ -1,16 +1,29 @@
 
 fun main(){
     print("Enter first number:")
-    var c:Int= readLine()!!.toInt()
+    var a:Int= readLine()!!.toInt()
     print("Enter second number:")
-    var d:Int= readLine()!!.toInt()
-    arithmetic(c,d)
-}
-fun arithmetic(a:Int,b:Int){
-    println("Sum of $a & $b is ${a+b}")
-    println("Difference of $a & $b is ${a-b}")
-    println("Multiplication of $a & $b is ${a*b}")
-    println("Division of $a & $b is ${a/b}")
-    println("Modulo of $a & $b is ${a%b}")
+    var b:Int= readLine()!!.toInt()
+    println("Addition: ${add(a,b)}")
+    println("Substraction: ${sub(a,b)}")
+    println("Multiplication: ${mul(a,b)}")
+    println("Division: ${div(a,b)}")
+    println("Modulo: ${mod(a,b)}")
 
+}
+fun add(p:Int,q:Int):Int{
+    return p+q
+}
+
+fun sub(p:Int,q:Int):Int{
+    return p-q
+}
+fun mul(p:Int,q:Int):Int{
+    return p*q
+}
+fun mod(p:Int,q:Int):Int{
+    return p%q
+}
+fun div(p:Int,q:Int):Int{
+    return p/q
 }

@@ -1,6 +1,6 @@
 fun main()
 {
-    print("Enter number: ")
+    print("Enter number of the month: ")
     var mon: Int = readLine()!!.toInt()
     var result = month(mon)
     println(result)
@@ -18,6 +18,7 @@ fun month(obj:Any):String=
             9->"September"
             10->"October"
             11->"November"
-            else->"December"
+            12->"December"
+            else->"Plz! Enter proper number"
         }
 

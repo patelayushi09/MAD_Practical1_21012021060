@@ -1,21 +1,21 @@
 fun main(){
-   println("Enter student Enrollment no.:");
-    var a= readLine()
-    println("Enter student Name:");
+   print("Enter student Enrollment no.:");
+    var a:Long?= readLine()!!.toLong()
+    print("Enter student Name:");
     var b:String?= readLine()
-    println("Enter student Branch:");
-    var c= readLine()
-    println("Enter student Class:");
-    var d= readLine()
-    println("Enter student Age:");
-    var e= readLine()
-    println("Enter student Batch:");
-    var g= readLine()
-    println("Enter student College Name:");
-    var f= readLine()
-    println("Enter student University Name:");
-    var h= readLine()
+    print("Enter student Branch:");
+    var c:String?= readLine()
+    print("Enter student Class:");
+    var d:String?= readLine()
+    print("Enter student Age:");
+    var e:Int= readLine()!!.toInt()
+    print("Enter student Batch:");
+    var g:String?= readLine()
+    print("Enter student College Name:");
+    var f:String?= readLine()
+    print("Enter student University Name:");
+    var h:String?= readLine()
 
     println("STUDENT`S INFORMATION")
-    println("Enrollment no:$a, Name:$b, Branch:$c, Class:$d, Batch:$g, Age:$e, College Name:$f, University Name:$h")
+    println("Enrollment no:$a, \nName:$b, \nBranch:$c, \nClass:$d, \nBatch:$g, \nAge:$e, \nCollege Name:$f, \nUniversity Name:$h")
 }
