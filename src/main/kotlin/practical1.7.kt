@@ -1,5 +1,5 @@
 fun main(){
-    print("Enter any number to find its factorial:")
+    print("Enter any number to find its factorial: ")
     var n:Int= readLine()!!.toInt()
     var res=factorial(n)
     print("Factorial of $n is $res")
