@@ -1,8 +1,8 @@
 
 fun main(){
-    print("Enter first number:")
+    print("Enter first number: ")
     var a:Int= readLine()!!.toInt()
-    print("Enter second number:")
+    print("Enter second number: ")
     var b:Int= readLine()!!.toInt()
     println("Addition: ${add(a,b)}")
     println("Substraction: ${sub(a,b)}")
@@ -11,7 +11,7 @@ fun main(){
     println("Modulo: ${mod(a,b)}")
 
 }
-fun add(p:Int,q:Int):Int{
+    fun add(p:Int,q:Int):Int{
     return p+q
 }
 
