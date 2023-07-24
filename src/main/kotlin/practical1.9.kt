@@ -11,8 +11,8 @@ fun main(){
     var max:Int=a.get(0)
 
 
-    for(i in 1 .. a.size-1){
-        println(a[i])
+    for(i in 0 .. a.size-1){
+        println("a[$i]:${a[i]}")
         if(max<a.get(i)){
             max=a.get(i)
         }
